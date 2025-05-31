@@ -1,0 +1,22 @@
+{
+  "name": "kontur",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "swiper": "^11.2.8",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@yandex/ymaps3-types": "^1.0.16662021",
+    "sass": "^1.89.0",
+    "vite": "^6.3.5"
+  }
+}

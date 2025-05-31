@@ -1,0 +1,25 @@
+// Цвета
+$primary-color: rgba(56, 191, 242, 1);
+$accent-color: rgba(241, 85, 37, 1);
+$text-color: rgba(34, 37, 59, 1);
+$text-grey-color: rgba(142, 142, 142, 1);
+$bg-color: rgba(234, 242, 245, 1);
+$app-bg-color: rgba(249, 248, 253, 1);
+
+// Типографика
+$font-family: 'Poppins', sans-serif;
+$font-size-l: clamp(24px, 3vw, 46px);
+$font-size-m: clamp(12px, 1.5vw, 16px);
+$font-size-s: clamp(9px, 1vw, 13px);
+
+// Миксины
+@mixin link-style($color) {
+    color: $color;
+    text-decoration: inherit;
+    transition: all 150ms ease-in-out;
+    line-height: 23px;
+
+    &:hover {
+        color: $accent-color;
+    }
+} 
